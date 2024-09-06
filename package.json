@@ -1,0 +1,26 @@
+{
+  "name": "chat-pa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.48",
+    "@langchain/openai": "^0.0.28",
+    "@supabase/supabase-js": "^2.42.3",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.33"
+  },
+  "description": "This is an LLM Chatbot powered by RAG. The tech stack includes Javascript, Langchain, OpenAI and Supabase vector store.",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
