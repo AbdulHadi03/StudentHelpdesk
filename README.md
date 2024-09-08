@@ -1,1 +1,1 @@
-
+Student Helpdesk is a go-to platform designed to assist students with their STEM-related queries and guide them in managing their academic life. It provides support and resources for a wide range of academic concerns and helps students navigate their educational journey effectively.
