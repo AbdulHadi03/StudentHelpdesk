@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "https://unpkg.com/@google/generative-ai?modu
 const chatInput=document.querySelector(".chat-input textarea");
 const sendChatBtn=document.querySelector(".chat-input span");
 const chatbox=document.querySelector(".chatbox");   
-        const apiKey = "AIzaSyCd424X4O_x32aOyaMjzlppUKGUb6qk2uQ";
+        const apiKey = "";
         const genAi = new GoogleGenerativeAI(apiKey);
         const model = genAi.getGenerativeModel({ model: "gemini-pro" });
         let userMessage;
@@ -103,4 +103,5 @@ const chatbox=document.querySelector(".chatbox");
                 generatePoem(userMessage);
  }
 sendChatBtn.addEventListener("click",handleCht);
+
             // generatePoem();
